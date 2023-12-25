@@ -43,6 +43,24 @@ Bun: latest
 
 ```
 
+- .devcontainer
+    - Bun環境コンテナ定義
+- build
+    - ビルドファイル
+- bunfig.toml
+    - Bun Configファイル
+- bun.lockb
+    - パッケージロックファイル
+- package.json
+    - パッケージ定義
+- src
+    - packages
+        - サンプルモジュール開発ファイル
+    - tests
+        - テストファイル
+- tsconfig.json
+    - コンパイル設定
+
 ## セットアップ
 VSCode > [Remote-Container]を使用。
 1. VSCode起動 > 「左下の「><」押下後、「コンテナで再度開く」
