@@ -11,7 +11,7 @@ interface Addition {
 }
 
 /**
- * Caluc addition numbers
+ * Addition numbers
  */
 export const addition = (props: Addition) => {
   const { first, second } = props;
