@@ -1,0 +1,23 @@
+{
+  "version": "1.0.0",
+  "name": "bun-sample",
+  "description": "bun sample module",
+  "module": "index.ts",
+  "license": "UNLICENSED",
+  "main": "./build/index.js",
+  "types": "./build/index.d.ts",
+  "scripts": {
+    "test": "bun test --timeout 10000",
+    "build": "bunx tsc",
+    "clear:build": "rm -rf ./build"
+  },
+  "files": [
+    "build"
+  ],
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "declaration": true,
+    "declarationDir": "build",
+    "outDir": "build",
+    "baseUrl": "./",
+    "paths": {
+      "*": ["build/*"]
+    },
+    "types": ["bun-types"]
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules", ".devcontainer", "src/tests"]
+}
